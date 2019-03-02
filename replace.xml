@@ -43,9 +43,6 @@
 <remove-project name="platform/packages/apps/Settings" />
 <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="a3" revision="pie" />
 
-<remove-project name="platform/packages/services/Telephony" />
-<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="a3" revision="pie" />
-
 <remove-project name="platform/bionic" />
 <project path="bionic" name="platform_bionic" remote="a3" revision="pie" />
 
