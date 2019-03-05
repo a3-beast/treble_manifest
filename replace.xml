@@ -37,8 +37,11 @@
 <remove-project name="platform/frameworks/opt/telephony" />
 <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="a3" revision="pie" />
 
-<remove-project name="platform/system/libvintf" />
-<project path="system/libvintf" name="platform_system_libvintf" remote="a3" revision="pie" />
+<remove-project name="platform/frameworks/opt/net/wifi" />
+<project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="a3" revision="pie" />
+
+<remove-project name="platform/packages/apps/Camera2" />
+<project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="a3" revision="pie" />
 
 <remove-project name="platform/packages/apps/Settings" />
 <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="a3" revision="pie" />

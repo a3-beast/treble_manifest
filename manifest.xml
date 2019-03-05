@@ -2,10 +2,8 @@
 <manifest>
 <remote name="a3" fetch="https://github.com/a3-beast/" />
 
-<project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="a3" revision="pie" />
 <project path="device/phh/treble" name="device_phh_treble" remote="a3" revision="pie" />
-<project path="vendor/vndk" name="vendor_vndk" remote="a3" revision="master" />
-<project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="a3" revision="master" />
+<project path="vendor/vndk" name="vendor_vndk" remote="a3" revision="pie" />
 <project path="vendor/interfaces" name="vendor_interfaces" remote="a3" revision="pie" />
 
 <!-- exfat support -->
