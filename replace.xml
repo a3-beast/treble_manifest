@@ -31,6 +31,9 @@
 <remove-project name="platform/external/selinux" />
 <project path="external/selinux" name="platform_external_selinux" remote="a3" revision="pie" />
 
+<remove-project name="platform/frameworks/av" />
+<project path="frameworks/av" name="platform_frameworks_av" remote="a3" revision="pie" />
+
 <remove-project name="platform/frameworks/base" />
 <project path="frameworks/base" name="platform_frameworks_base" remote="a3" revision="pie" />
 
